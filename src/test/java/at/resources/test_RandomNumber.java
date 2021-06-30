@@ -1,6 +1,9 @@
-package at.Labuda;
-import org.junit.jupiter.api.Test;
+package at.resources;
+
+
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 
 public class test_RandomNumber {
 
@@ -9,7 +12,7 @@ public class test_RandomNumber {
     @Test
     public void test_randomNumber_smallerThan100(){
         //Arrange
-        at.Labuda.RandomNumber randomNumberTest = new at.Labuda.RandomNumber();
+        at.resources.RandomNumber randomNumberTest = new at.resources.RandomNumber();
 
         //Act
         int value = randomNumberTest.randomNumber();
@@ -21,7 +24,7 @@ public class test_RandomNumber {
     @Test
     public void test_randomNumber_biggerThan0(){
         //Arrange
-        at.Labuda.RandomNumber randomNumberTest = new at.Labuda.RandomNumber();
+        at.resources.RandomNumber randomNumberTest = new at.resources.RandomNumber();
         //Act
         int value = randomNumberTest.randomNumber();
         //Assert

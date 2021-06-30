@@ -1,9 +1,12 @@
-package at.Labuda;
+package at.resources;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
+import javax.ws.rs.*;
+import javax.ws.rs.container.*;
+import javax.ws.rs.core.*;
+import java.io.IOException;
+import java.lang.annotation.Annotation;
+import java.net.URI;
+import java.util.*;
 import java.util.Random;
 
 @Path("/api")
