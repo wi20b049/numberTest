@@ -10,7 +10,7 @@ public class Main {
         public static void main(String[] args){
 
             System.out.println("Starting REST Service...");
-            ResourceConfig rc = new ResourceConfig().packages("at.resources");
+            ResourceConfig rc = new ResourceConfig().packages("at.Labuda");
             HttpServer server = JdkHttpServerFactory.createHttpServer(URI.create("http://localhost:8080/"), rc);
             System.out.println("Server started");
 
