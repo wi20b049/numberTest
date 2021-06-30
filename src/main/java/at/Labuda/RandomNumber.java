@@ -12,10 +12,15 @@ public class RandomNumber {
     @GET
     @Path("/Numbers")
     @Produces(MediaType.TEXT_PLAIN)
-    public String randomNumber(){
+    public int randomNumber(){
         Random rand = new Random();
         int upperbound = 100;
         int int_random = rand.nextInt(upperbound);
-        return String.format("%d",int_random);
+        return (int_random);
+
     }
+
+
+
 }
+
